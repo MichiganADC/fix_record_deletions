@@ -36,7 +36,8 @@ recs_deld_raw <-
     "UM00001446",
     "UM00001153",
     "UM00001040",
-    "UM00001610"
+    "UM00001610",
+    "UM00000700"
   )
 recs_deld_raw <- sort(recs_deld_raw)
 recs_deld <- recs_deld_raw %>% paste(collapse = ",")
